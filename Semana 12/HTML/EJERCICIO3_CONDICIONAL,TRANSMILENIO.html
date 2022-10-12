@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SALDO TM</title>
+    <!-- link de sitio sweetalert mensajes más elegantes-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</head>
+<body>
+    <center>
+        <img= src="../Semana 12/IMG/TransMilenio_Logo.png" alt="" width="150" height="150">
+            <h2>SALDO DE TARJETA TU LLAVE+</h2>
+            <script>
+            var saldo=0;
+            const tm=2650;
+            saldo= parseInt(prompt("Ingrese saldo de su tarjeta de Transmilenio"));
+
+        if( saldo >= tm ){
+        swal("Señor usuario", "ingrese a sistema transmilenio","success");
+        }
+        else{
+            swal("Señor usuario","Recargue tarjeta, Saldo insuficiente","error")
+
+        }
+
+
+            </script>
+
+
+
+    </center>
+    
+</body>
+</html>

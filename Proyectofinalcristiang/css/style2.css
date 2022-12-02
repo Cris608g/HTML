@@ -1,0 +1,15 @@
+body {
+    margin: 0cm;
+    font-family: 'Lobster Two', cursive;
+}
+
+.cover {
+    height: 400px;
+    background-image: url("../IMG/acercadimgprincipal.jpg");
+    color:blue;
+    background-size: cover;
+    background-position:center;
+    background-color:rgba(255,255,255);
+    background-blend-mode: darken;
+    }
+
